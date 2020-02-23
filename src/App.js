@@ -4,7 +4,9 @@ import styles from './App.css';
 
 import Persons from './components/Persons/Persons';
 import Cockpit from './components/Cockpit/Cockpit';
-
+import withClass from './components/hoc/WithClass';
+import Aux from './components/hoc/_Aux';
+import AuthContext from './components/context/AuthContext';
 class App extends Component {
   constructor(props) {
     super(props);
